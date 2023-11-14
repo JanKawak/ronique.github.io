@@ -1,0 +1,15 @@
+body {
+    background-color: darkgray;
+    background-image: url("fotos/auto.jpg") , url("fotos/cocktail.jpeg") , url("fotos/zee.jpeg"), url("fotos/jong.jpeg"), url("fotos/doek.jpeg"), url("fotos/groen.jpeg"), url("fotos/PF_samen.jpeg"), url("fotos/spiegel_samen.jpeg"), url("fotos/zwart_wit.jpg");
+    background-attachment: fixed;
+    background-size: 200px, 200px;
+    background-repeat: no-repeat;
+    background-position: right top, left top, center top , left 300px, center 300px, right 300px, left 600px, center 600px, right 600px;
+    
+}
+
+video{
+    width: 100%;
+    height: auto;
+    object-position: center center;
+}
