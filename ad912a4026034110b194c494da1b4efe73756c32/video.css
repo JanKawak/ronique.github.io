@@ -1,0 +1,31 @@
+body {
+    background-color: darkgray;
+    background-image: url("fotos/auto.jpg") , url("fotos/cocktail.jpeg") , url("fotos/zee.jpeg"), url("fotos/jong.jpeg"), url("fotos/doek.jpeg"), url("fotos/groen.jpeg"), url("fotos/PF_samen.jpeg"), url("fotos/spiegel_samen.jpeg"), url("fotos/zwart_wit.jpg");
+    background-attachment: fixed;
+    background-size: 200px, 200px;
+    background-repeat: no-repeat;
+    background-position: right top, left top, center top , left 300px, center 300px, right 300px, left 600px, center 600px, right 600px;
+    
+}
+.button{
+    position: sticky;
+    top: 5px;
+    left: 0px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    padding: 2px;
+    border-style: solid;
+    border-width: 2.5px;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+    border-radius: 7px;
+}
+video{
+    width: 100%;
+    height: auto;
+    object-position: center center;
+}

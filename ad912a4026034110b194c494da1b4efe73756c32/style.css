@@ -1,0 +1,94 @@
+
+/* this is a comment */
+body {
+    background-color: darkgray;
+    background-image: url("fotos/Alles.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    /* Adjust background size for responsiveness */
+    background-size: cover; /* Set the initial background size */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: cover; /* Adjust background size for smaller screens */
+
+    }
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+li{
+    display; inline;
+    float: left;
+    border-left: 0px solid white;
+}
+/* Common styles for all buttons */
+.block {
+    background-color: white;
+    display: block;
+    border-radius: 6px;
+    text-decoration: none;
+    text-decoration-color: black;
+    font-size: 20px;
+}
+
+.button {
+    position: sticky;
+    background-color: white;
+    color: black;
+    border-color: black;
+    padding: 2px;
+    border-style: solid;
+    border-width: 2.5px;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 50px;
+    box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+    border-radius: 7px;
+    position: absolute;
+}
+
+.button1 {
+    top: 10px;
+    left: 25px;
+}
+
+.button2 {
+    top: 10px;
+    left: 125px;
+}
+
+.button3 {
+    top: 10px;
+    left: 225px;
+}
+.button4 {
+    display:flex;
+    height: 70px;
+    left: 325px;
+}
+.button5 {
+    display:flex;
+    height: 70px;
+    left: 425px;
+}
+
+
+audio{
+    position: fixed;
+    bottom: 10px ;
+    right: 10px;
+    
+    
+}
